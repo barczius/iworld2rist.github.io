@@ -1,6 +1,7 @@
 * {
 padding: 0;
 margin: 0;
+ font-family: 'Poppins', sans-serif;
 }
 .namehead { 
   display: flex;
@@ -19,31 +20,34 @@ margin: 0;
   font-weight: 700;
   font-size: 25pt;
   color: #F57F17;
-  font-family: 'Poppins', sans-serif;
+ 
 }
 .social { 
   display: flex;
   flex-direction: row;
 }
-
 .vk {
   margin: 10px;
 }
-
 .telegram {
   margin: 10px;
 }
-
 .instagram {
   margin: 10px;
 }
-
 .github {
   margin: 10px;
 }
-
-
 .imghead { 
   display:block;
   margin: auto;
+}
+.project {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25pt;
+  background-color: #FFEE58;
+  padding: 110px;
+  color: #F57F17;
+  text-align: center;
 }
